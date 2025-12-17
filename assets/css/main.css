@@ -4147,12 +4147,7 @@ input, select, textarea {
 		}
 
 	}
-.button,
-.button.primary,
-.actions a,
-.icons a {
-  color: #000000 !important;
-}
+
 
 	/* WCAG 2.1 AA contrast fix */
 body,
@@ -4175,6 +4170,26 @@ body li {
 /* Header background color override */
 #header {
   background-color: #f7c1d9 !important; /* light pink */
+}
+
+/* Resume button background */
+.button.primary {
+  background-color: #f7c1d9 !important; /* light pink */
+  border-color: #f7c1d9 !important;
+}
+
+/* Resume button text + icon */
+.button.primary,
+.button.primary span,
+.button.primary:before {
+  color: #000000 !important;
+}
+
+/* Hover state */
+.button.primary:hover {
+  background-color: #f4b6c2 !important;
+  border-color: #f4b6c2 !important;
+  color: #000000 !important;
 }
 
 
