@@ -4148,3 +4148,23 @@ input, select, textarea {
 
 	}
 
+	/* WCAG 2.1 AA contrast fix */
+body,
+body input,
+body select,
+body textarea,
+body button,
+body a,
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body span,
+body li {
+  color: #000000 !important;
+}
+
+
