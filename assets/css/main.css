@@ -4208,5 +4208,24 @@ body li {
   color: #000000 !important;
 }
 
+/* Section 3 buttons: keep WCAG-safe pink + black */
+#three .button,
+#three .button:visited {
+  background-color: #f7c1d9 !important;
+  border-color: #f7c1d9 !important;
+  color: #000000 !important;
+}
+
+#three .button:before {
+  color: #000000 !important;
+}
+
+#three .button:hover,
+#three .button:focus {
+  background-color: #f4b6c2 !important;
+  border-color: #f4b6c2 !important;
+  color: #000000 !important;
+}
+
 
 
