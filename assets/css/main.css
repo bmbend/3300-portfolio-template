@@ -4174,21 +4174,37 @@ body li {
 
 /* ===== FORCE RESUME BUTTON TEXT TO BLACK ===== */
 
-/* Button text */
-.button.primary,
-.button.primary span,
-.button.primary strong {
+/* ===== SECTION 3 RESUME BUTTON: FORCE PINK + BLACK (WCAG) ===== */
+
+/* Base state */
+#three .button.primary,
+#three .button.primary:visited {
+  background-color: #f7c1d9 !important;  /* light pink */
+  border-color: #f7c1d9 !important;
+  color: #000000 !important;            /* text */
+}
+
+/* Make sure inner text stays black */
+#three .button.primary span,
+#three .button.primary strong {
   color: #000000 !important;
 }
 
-/* Button icon */
-.button.primary:before {
+/* Make sure the Font Awesome icon stays black */
+#three .button.primary:before {
   color: #000000 !important;
 }
 
-/* Ensure hover does not revert to white */
-.button.primary:hover,
-.button.primary:hover span {
+/* Hover/focus states (templates often re-apply blue/white here) */
+#three .button.primary:hover,
+#three .button.primary:focus {
+  background-color: #f4b6c2 !important; /* slightly deeper pink */
+  border-color: #f4b6c2 !important;
+  color: #000000 !important;
+}
+
+#three .button.primary:hover:before,
+#three .button.primary:focus:before {
   color: #000000 !important;
 }
 
