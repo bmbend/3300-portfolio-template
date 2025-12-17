@@ -4147,6 +4147,12 @@ input, select, textarea {
 		}
 
 	}
+.button,
+.button.primary,
+.actions a,
+.icons a {
+  color: #000000 !important;
+}
 
 	/* WCAG 2.1 AA contrast fix */
 body,
