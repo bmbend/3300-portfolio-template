@@ -4172,5 +4172,9 @@ body span,
 body li {
   color: #000000 !important;
 }
+/* Header background color override */
+#header {
+  background-color: #f7c1d9 !important; /* light pink */
+}
 
 
