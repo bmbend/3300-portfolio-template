@@ -4172,24 +4172,25 @@ body li {
   background-color: #f7c1d9 !important; /* light pink */
 }
 
-/* Resume button background */
-.button.primary {
-  background-color: #f7c1d9 !important; /* light pink */
-  border-color: #f7c1d9 !important;
-}
+/* ===== FORCE RESUME BUTTON TEXT TO BLACK ===== */
 
-/* Resume button text + icon */
+/* Button text */
 .button.primary,
 .button.primary span,
+.button.primary strong {
+  color: #000000 !important;
+}
+
+/* Button icon */
 .button.primary:before {
   color: #000000 !important;
 }
 
-/* Hover state */
-.button.primary:hover {
-  background-color: #f4b6c2 !important;
-  border-color: #f4b6c2 !important;
+/* Ensure hover does not revert to white */
+.button.primary:hover,
+.button.primary:hover span {
   color: #000000 !important;
 }
+
 
 
